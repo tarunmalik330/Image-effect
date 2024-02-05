@@ -1,0 +1,26 @@
+.bg_image {
+    background: url('../images/png/Smillejiiiiii.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 894px;
+    max-width: 715px;
+    width: 100%;
+}
+
+.spotlight {
+    position: absolute;
+    height: 894px;
+    max-width: 715px;
+    width: 100%;
+    background-image: radial-gradient(circle,
+            transparent 160px,
+            rgba(0, 0, 0, 0.85) 100px);
+}
+
+@media (max-width:576px) {
+    .bg_image {
+        background-size: cover;
+    }
+}
